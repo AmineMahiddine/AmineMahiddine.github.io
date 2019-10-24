@@ -1,0 +1,35 @@
+#side-nav .fa {
+  height: 34px !important;
+  width: 34px !important;
+  line-height: 34px !important;
+  margin-bottom: 10px;
+}
+
+#side-nav a {
+  width: 34px !important;
+  height: 34px !important;
+}
+
+#side-nav {
+  position: fixed;
+  top: 100%;
+  right: 30px;
+  width: 30px;
+  height: 235px;
+  transform: translate(0,-100%);
+}
+
+@media (max-width: 996px) {
+  #side-nav {
+    display: none;
+  }
+}
+
+#arow {
+  text-decoration: none;
+}
+
+#side-nav i {
+  border-color: #000 !important;
+}
+
