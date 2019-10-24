@@ -48,6 +48,10 @@
 
 .wallpaper {
   background-image: url('../img/background.jpg');
+<<<<<<< HEAD
+=======
+  background-color: rgb(0, 0, 0);
+>>>>>>> fixing visit counter
   /* background-repeat: no-repeat; */
   background-size: cover;
   background-attachment: fixed;
