@@ -1,5 +1,5 @@
 # aminemahiddine.me (aminemahiddine.github.io)
-**My personal website 
+***My personal website***
 * Used technologies:
 - HTML
 - CSS
