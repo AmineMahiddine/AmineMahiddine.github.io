@@ -14,35 +14,16 @@ function initialSetup() {
     setTimeout(function() {
       document.getElementById('ls').style.display = 'inline-block';
         document.getElementById('whoami').style.borderRight = 'none';
+        document.getElementById('amine2').style.display = 'inline-block';
+        document.getElementById('parag').style.display = 'inline-block';
 
-    }, 2000);
+    }, 1800);
   }
 }
 
 
 initialSetup();
 
-function rect() {
-  if (document.getElementById("rect") != null) {
-    setTimeout(function() {
-      document.getElementById('rect').style.borderRight = '5px solid #fff';
-document.getElementById('ls').style.borderRight = 'none';
-        
-    }, 3000);
-  }
-}
-rect();
-
-
-function initialSetup2() {
-  if (document.getElementById("parag") != null) {
-    setTimeout(function() {
-      document.getElementById('amine2').style.display = 'inline-block';
-      document.getElementById('parag').style.display = 'inline-block';
-    }, 1800);
-  }
-}
-initialSetup2();
 
 
 function initialSetup1() {
@@ -50,15 +31,26 @@ function initialSetup1() {
     setTimeout(function() {
       document.getElementById('amine3').style.display = 'inline-block';
       document.getElementById('lis').style.display = 'inline-block';
-    }, 3200);
+    }, 2900);
   }
 }
 initialSetup1();
 
 
 
+function rect() {
+  if (document.getElementById("rect") != null) {
+    setTimeout(function() {
+      document.getElementById('rect').style.borderRight = '5px solid #fff';
+document.getElementById('ls').style.borderRight = 'none';
+        
+    }, 2900);
+  }
+}
+
+rect();
  $(document).ready(function() {
-      $( "#app" ).click(function() {
+   $( "#app" ).click(function() {
   $( "#gallery" ).toggle( "400" );
 });
 
@@ -69,7 +61,7 @@ initialSetup1();
 
 // Page animation 
 
-$('.btn1, .btn2 ,.btn3 ,.fa').click(function (e) {
+$('.btn1, .btn2 ,.btn3 ').click(function (e) {
   e.preventDefault();                   // prevent default anchor behavior
   var goTo = this.getAttribute("href"); // store anchor href
 
