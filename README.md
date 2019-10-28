@@ -1,5 +1,5 @@
 # amine's reseme website
-**responsive modern portfolio**
+*responsive modern portfolio*
 
 ## Used technologies:
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/html).
