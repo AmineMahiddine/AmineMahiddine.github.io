@@ -24,10 +24,18 @@
 
 #app {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   left: 0;
   transform: translate(0, -10px);
   width: 60px;
+}
+@media (max-width: 996px){
+#app {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(0, -60px);
+}
 }
 
 #app i.fas {
@@ -49,7 +57,7 @@
 
 .wallpaper {
   background-image: url('../img/background.jpg');
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
