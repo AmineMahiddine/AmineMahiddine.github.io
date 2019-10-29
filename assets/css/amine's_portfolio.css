@@ -62,7 +62,7 @@ body {
   position: relative;
   width: 100%;
   padding: 10px 5px;
-  background: rgba(255,255,255,0.04);
+  background: rgba(255, 255, 255, 0.04);
 }
 
 #section-title h4 {
@@ -80,7 +80,7 @@ body {
 }
 
 #technologies h4 {
-  color: rgb(145,145,145) !important;
+  color: rgb(145, 145, 145) !important;
 }
 
 #technologies .text-center {
@@ -91,7 +91,7 @@ body {
   box-shadow: 0px 18px 15px 0 #777777;
   border: 13px solid #191919;
   border-radius: 1px;
-  background-color: rgba(0,0,0,0.07);
+  background-color: rgba(0, 0, 0, 0.07);
   margin: auto;
 }
 
@@ -117,7 +117,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,30%);
+  transform: translate(-50%, 30%);
 }
 
 @media (max-width: 996px) {
@@ -138,8 +138,8 @@ body {
   position: absolute;
   top: 20%;
   left: 47.5%;
-  transform: translate(-50% ,23%);
-  background-image: linear-gradient(150deg, #3340ff 29% , #5a14cd 51%);
+  transform: translate(-50%, 23%);
+  background-image: linear-gradient(150deg, #3340ff 29%, #5a14cd 51%);
   /*border-radius: 3px;*/
 }
 
@@ -148,17 +148,17 @@ body {
 }
 
 #section-title h2 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
-  color: rgba(0,0,0,0.9);
-  font-family: Aldrich , sans-serif;
+  color: rgba(0, 0, 0, 0.9);
+  font-family: Aldrich, sans-serif;
 }
 
 #section-title h4 {
-  font-family: Aldrich , sans-serif;
+  font-family: Aldrich, sans-serif;
   color: #3f3d56;
   opacity: .5;
-  font-size: 25px !important;
+  font-size: 22px !important;
   margin-top: -15px;
 }
 
@@ -170,15 +170,13 @@ body {
 
 #future h4 {
   font-size: 15px;
-  color: rgba(0,0,0,0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 #future img {
   margin: -15px auto -50px auto !important;
   padding-right: 20px;
 }
-
-
 
 #wrapper h2 {
   color: #000 !important;
@@ -216,14 +214,12 @@ body {
 }
 
 #wrapper a.text-nowrap {
-  color: #3340FF;
+  color: #3340ff;
 }
 
 #wrapper {
   margin-top: 100px !important;
 }
-
-
 
 #section-title, .section-title1 {
   margin-top: 60px !important;
@@ -242,46 +238,83 @@ body {
 #wrapper .col1 {
   margin-top: 6px !important;
 }
+
 #wrapper .col2 {
   margin-top: -20px !important;
 }
+
 /* fade animation */
 
 #fadeAnimetion {
-
-
-  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 1s; /* Firefox < 16 */
-      -ms-animation: fadein 1s; /* Internet Explorer */
-       -o-animation: fadein 1s; /* Opera < 12.1 */
-          animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 1s;
+  /* Internet Explorer */
+  -o-animation: fadein 1s;
+  /* Opera < 12.1 */
+  animation: fadein 1s;
 }
 
 @keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Firefox < 16 */
+
 @-moz-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
+
 @-webkit-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Internet Explorer */
+
 @-ms-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Opera < 12.1 */
+
 @-o-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity:1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media(max-width: 776px) {
+  #main-img-wrapper .main-img {
+    height: 300px !important;
+  }
+  #main-img-wrapper video{
+    max-width: 450px !important;
+  }
 }

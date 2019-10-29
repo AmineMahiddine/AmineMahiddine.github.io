@@ -60,7 +60,8 @@ html, body {
   padding: 10px 30px;
   background: #ffffff;
   border-radius: .25em;
-  box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.2); */
+  border: 2px solid rgb(240, 240, 240);
 }
 
 .timeline-content::after {
@@ -86,24 +87,8 @@ html, body {
   border: 5px solid #fff;
 }
 
-#timeline a {
-  background: #3f3d56;
-  color: #fff;
-  padding: 8px 20px;
-  text-transform: uppercase;
-  font-size: 14px;
-  margin-bottom: 20px;
-  margin-top: 10px;
-  display: inline-block;
-  border-radius: 3px;
-  box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
-}
 
-#timeline a:hover, #timeline a:active, #timeline a:focus {
-  background: #292838;
-  color: #fff;
-  text-decoration: none;
-}
+
 
 @media (min-width: 1200px) {
   .timeline-card {
@@ -120,7 +105,7 @@ html, body {
 }
 
 .timeline-item .timeline-img1 {
-  background: url("../../assets/img/journey2.svg") center center no-repeat;
+  background: url("/assets/img/education.svg") center center no-repeat;
   background-size: cover;
   height: 200px;
   width: 240px;
@@ -128,34 +113,34 @@ html, body {
 }
 
 .timeline-item .timeline-img2 {
-  background: url("../../assets/img/maths.svg") center center no-repeat;
+  background: url("/assets/img/graduation.svg") center center no-repeat;
   background-size: cover;
   height: 219px;
-  width: 250px;
+  width: 260px;
   margin: 20px auto 0 auto;
 }
 
 .timeline-item .timeline-img3 {
-  background: url("../../assets/img/journey4.svg") center center no-repeat;
+  background: url("/assets/img/ieee.svg") center center no-repeat;
   background-size: cover;
-  width: 300px;
-  height: 220px;
-  margin: 0 auto 0 auto;
+  height: 190px;
+  width: 250px;
+  margin: 10px auto 0 auto;
 }
 
 .timeline-item .timeline-img4 {
-  background: url("../../assets/img/journey3.svg") center center no-repeat;
+  background: url("/assets/img/search.svg") center center no-repeat;
   background-size: cover;
-  height: 210px;
-  width: 280px;
-  margin: 20px auto 0 auto;
+  height: 160px;
+  width: 240px;
+  margin: 10px auto 0 auto;
 }
 
 .timeline-item .timeline-img5 {
-  background: url("../../assets/img/journey5.svg") center center no-repeat;
+  background: url("/assets/img/design.svg") center center no-repeat;
   background-size: cover;
-  width: 330px;
-  height: 220px;
+  width: 300px;
+  height: 190px;
   margin: 20px auto 0 auto;
 }
 
@@ -172,9 +157,8 @@ html, body {
 }
 
 #timeline blockquote {
-  margin-top: 30px;
+  margin-top: 10px;
   color: #757575;
-  border-left-color: #3f3d56;
   padding: 0 20px;
 }
 

@@ -104,7 +104,8 @@ ul.left-nav li a:hover {
 }
 
 .nav-link.contact, .nav-link.cv {
-  background-color: #3340FF;
+
+  background-color: #3340ff;
   color: #fff !important;
   margin: 0 5px;
   border-radius: 4px;
