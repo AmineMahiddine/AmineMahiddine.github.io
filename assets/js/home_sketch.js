@@ -1,3 +1,6 @@
+
+// Terminal animation
+
 function initialSetup0() {
   if (document.getElementById("whoami") != null) {
     setTimeout(function() {
@@ -59,7 +62,7 @@ rect();
 
 
 
-// Page animation 
+// home Page animation 
 
 $('.btn1, .btn2 ,.btn3 ').click(function (e) {
   e.preventDefault();                   // prevent default anchor behavior
