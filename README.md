@@ -1,7 +1,7 @@
 # amine's reseme website
 *responsive modern portfolio*
-i've always belived that you'll never improve your self inless you start creating something, that's why i decided to 
-create this earlly staged porfolio, that will contain most of my future projects. i've start this project by prototyping and design. beying my firt sirious project i've find my self lost, but day after day i start having an idea on waht i'm doing, and i learned about some great designer resources that inspired me (  [Undraw](https://undraw.co/illustrations) ,  [Dribbble](https://dribbble.com/),  [Behance](https://www.behance.net/)). during the developement phase i've gain somme greate exeperiences, faceing somme problems every developer have to face at some point, from cleanning up the code, making it erors free Accessible for every user (screen readers ...), hosting the web site and getting an SSL certificate ..., the website will be much butter and richer with content as i get advanced in my carrier so stay tooned !!
+i've always belived that you'll never improve your self unless you start creating something, that's why i decided to 
+making this early stages website, that will contain most of my future projects. i've started this project by prototyping and design. beying my first serious project i've find my self a bit lost, but day after day i start having an idea on waht i'm doing, and i learned about some great designer resources that inspired me like ( [Undraw](https://undraw.co/illustrations), [Dribbble](https://dribbble.com/), [Behance](https://www.behance.net/)). During the developement phase i've gained some experience, facing some problems every developer have to face at some point, from cleaning up the code, making it errors free and Accessible for every user (screen readers , keybored tabs ...)and fimally hosting the website and getting an SSL certificate ..., the website will be much butter and richer with content as i get advanced in my professional career so stay tooned !!
 
 - [x] Prototyping and design
 - [x] code
@@ -10,7 +10,7 @@ create this earlly staged porfolio, that will contain most of my future projects
 - [x] pushing to github
 - [ ] final content
 - [ ] fixing typing errors
-- [ ] officiel lunch 
+- [ ] official launch 
 - [ ] maintenance
 
 
@@ -35,6 +35,8 @@ create this earlly staged porfolio, that will contain most of my future projects
 - [wave](https://wave.webaim.org/extension/) web accessibility evaluation tool
 
 ## License:
-This project is licensed under the MIT License.
+>This project is licensed under the MIT License.
 
+
+#### note
 > Pardon my typing errors
