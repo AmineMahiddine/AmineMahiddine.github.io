@@ -37,5 +37,3 @@ making this early stages website, that will contain most of my future projects. 
 >This project is licensed under the [MIT License](https://github.com/AmineMahiddine/aminemahiddine.github.io/blob/master/LICENSE).
 
 
-#### note:
-> Pardon my typing errors
