@@ -9,6 +9,7 @@ making this early stages website, that will contain most of my future projects. 
 - [x] pre-content
 - [x] domain name and Hosting
 - [x] pushing to github
+- [x] adding a contact form
 - [ ] final content
 - [ ] fixing typing errors
 - [ ] official launch 
