@@ -12,7 +12,7 @@ html, body {
 
 .timeline::before {
   content: '';
-  background: #3f3d56;
+  background: #4A4A4A;
   width: 4px;
   height: 95%;
   position: absolute;
@@ -163,7 +163,7 @@ html, body {
 }
 
 #timeline .date {
-  background: #3f3d56;
+  background: #4A4A4A;
   opacity: .5;
   display: inline-block;
   color: #fff;

@@ -9,7 +9,7 @@
 
 body {
   background-color: #fff;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 #timeline {
@@ -156,14 +156,13 @@ body {
   font-size: 40px;
   font-weight: 700;
   color: rgba(0, 0, 0, 0.9);
-  font-family: Montserrat, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #section-title h4 {
-  font-family: Montserrat, sans-serif;
-  color: #3f3d56;
-  opacity: .5;
-  font-size: 22px !important;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(167, 167, 167);
+  font-size: 20px !important;
   margin-top: -15px;
 }
 
@@ -188,28 +187,31 @@ body {
 
 #wrapper h2 {
   color: #000 !important;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: bold;
-  font-family: 'Montserrat' ,sans-serif;
+  font-family: 'Cairo' ,sans-serif;
+  text-decoration: underline;
 }
 
 #wrapper h3 {
-  color: #000 !important;
+  color: rgb(54, 52, 63) !important;
   font-size: 14px !important;
-  opacity: .7;
+  font-family: 'Cairo' ,sans-serif;
+  
 }
 
 .project-title {
   font-weight: bold;
-  color: #3f3d56;
+  color: #4A4A4A;
   font-size: 14px;
   font-family: 'Montserrat' ,sans-serif;;
 }
 
 .projects-info h4{
   font-size: 14px;
-  top: -5px;
+  margin-top: -6px !important;
   color: #4A4A4A !important;
+  font-family: 'Montserrat' ,sans-serif;;
 }
 
 .bg-success.d-flex.align-items-center h4, .bg-success.d-flex.align-items-center h1 {

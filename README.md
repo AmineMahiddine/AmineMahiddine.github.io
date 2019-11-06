@@ -10,10 +10,10 @@ making this early stages website, that will contain most of my future projects. 
 - [x] domain name and Hosting
 - [x] pushing to github
 - [x] adding a contact form
-- [ ] final content
+- [x] final content
 - [ ] fixing typing errors
 - [ ] official launch 
-- [ ] maintenance
+- [x] maintenance
 
 ## Used technologies:
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/html).

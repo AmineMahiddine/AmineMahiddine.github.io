@@ -7,7 +7,7 @@ function initialSetup0() {
       document.getElementById('whoami').style.display = 'inline-block';
      
         
-    }, 1000);
+    }, 700);
   }
 }
 initialSetup0();
@@ -20,7 +20,7 @@ function initialSetup() {
         document.getElementById('amine2').style.display = 'inline-block';
         document.getElementById('parag').style.display = 'inline-block';
 
-    }, 1800);
+    }, 1500);
   }
 }
 
@@ -34,7 +34,7 @@ function initialSetup1() {
     setTimeout(function() {
       document.getElementById('amine3').style.display = 'inline-block';
       document.getElementById('lis').style.display = 'inline-block';
-    }, 2900);
+    }, 2600);
   }
 }
 initialSetup1();
@@ -47,7 +47,7 @@ function rect() {
       document.getElementById('rect').style.borderRight = '5px solid #fff';
 document.getElementById('ls').style.borderRight = 'none';
         
-    }, 2900);
+    }, 2600);
   }
 }
 
