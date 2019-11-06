@@ -46,6 +46,7 @@ body {
 
 #technologies .row .col {
   margin: 0 5px 40px 5px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 996px) {
@@ -82,7 +83,9 @@ body {
 }
 
 #technologies h4 {
-  color: rgb(145, 145, 145) !important;
+  color: #4A4A4A;
+  
+
 }
 
 #technologies .text-center {
@@ -110,7 +113,7 @@ body {
   filter: blur(5px);
 }
 
-#carousel-1 img {
+#carousel-1 img , .gsuites {
   height: 250px;
   width: 440px !important;
   margin: auto;
@@ -165,18 +168,21 @@ body {
 }
 
 #future h2 {
-  color: #000;
   font-size: 17px;
   margin-top: -10px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
 }
 
 #future h4 {
   font-size: 15px;
-  color: rgba(0, 0, 0, 0.8);
+  font-family: Montserrat, sans-serif;
+  color: #4A4A4A;
+
 }
 
 #future img {
-  margin: -15px auto -50px auto !important;
+  margin: 0 auto -50px auto !important;
   padding-right: 20px;
 }
 
@@ -203,7 +209,7 @@ body {
 .projects-info h4{
   font-size: 14px;
   top: -5px;
-  color: #4a4a4a !important;
+  color: #4A4A4A !important;
 }
 
 .bg-success.d-flex.align-items-center h4, .bg-success.d-flex.align-items-center h1 {
