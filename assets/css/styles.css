@@ -2,7 +2,7 @@
     position: absolute;
     width: 60px;
     background-color: rgb(26, 26, 31);
-    background-color: rgba(26, 26, 31, 0.8);
+    opacity: .8;
     height: calc(100vh - 4px);
     z-index: 5000;
     top: 4px;
@@ -12,14 +12,14 @@
     height: calc(100vh - 20px);
   }
 
-  #side-nav1 div a i , #side-nav1 .btn {
+  #side-nav1 div a i, #side-nav1 .btn {
     margin-top: 5px;
     height: 54px;
     width: 56px;
     line-height: 54px;
     font-size: 30px;
     color: rgb(240, 235, 235) !important;
-    color: rgba(255, 255, 255, 0.8) !important;
+    opacity: .8;
     margin-left: -9px !important;
     border-radius: 6px;
   }
@@ -31,13 +31,14 @@
     transform: translate(0, 10px);
     width: 60px;
   }
-  @media (max-width: 996px){
-  #app {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transform: translate(0, -40px);
-  }
+
+  @media (max-width: 996px) {
+    #app {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transform: translate(0, -40px);
+    }
   }
 
   #app i.fas {
@@ -52,10 +53,9 @@
     line-height: 48px !important;
   }
 
-  #side-nav1 div a i:hover {
-    background-color: rgb(29, 29, 34);
-    color: rgb(255, 255, 255);
-    color: rgba(255, 255, 255, 0.9);
+  #side-nav1 div a i:hover, #side-nav1 .btn {
+    background-color: rgb(45, 45, 51);
+    color: rgb(255, 255, 255) !important;
   }
 
   .wallpaper {
@@ -179,7 +179,7 @@
   }
 
   .col.counterLogo {
-    background-image: linear-gradient(to top, #000000, #000000, #000000,#1f1f1f81, #2d2742,#1f1f1f81, #000000, #000000, #000000);
+    background-image: linear-gradient(to top, #000000, #000000, #000000, #1f1f1f81, #2d2742, #1f1f1f81, #000000, #000000, #000000);
     color: #eaeaea;
     /* border: 1px solid #111111; */
     margin-top: 4px !important;
@@ -206,21 +206,19 @@
     padding: 0;
   }
 
-  #counter .h6, h6 {
-    font-size: 8px;
-    margin: 0;
+  #counter .views {
+    font-size: 12px !important;
     line-height: 15px !important;
-    color: rgba(255, 255, 255, .9);
-    font-family: inherit;
-    font-weight: bold;
+    color: #d8d8d8;
   }
 
   #topPanel div {
     z-index: 10;
     position: absolute;
     height: 24px;
-    background-color: rgba(51, 65, 255, 0.795);
-    border-bottom: 1px solid rgba(139, 139, 139, 0.459);
+    background-color: rgb(51, 65, 255, 0.795);
+    opacity: 0.795;
+    border-bottom: 1px solid rgb(139, 139, 139, 0.459);
   }
 
   @media (max-width: 992px) {
@@ -273,7 +271,7 @@
     line-height: 15;
     display: none;
     z-index: 0;
-    margin-top: calc(-100vh + 7px );
+    margin-top: calc(-100vh + 7px);
     overflow: auto;
   }
 
@@ -322,7 +320,7 @@
   }
 
   #iconsDesktop .btn.btn3::after {
-    content: "Leave_Your_Review";
+    content: "Leave_Feedback";
   }
 
   #iconsDesktop .col a.btn {
@@ -330,7 +328,6 @@
     color: rgb(255, 255, 255);
     display: flex;
     line-height: 10px !important;
-    justify-content: center;
     background-color: #3340FF;
   }
 
@@ -347,6 +344,14 @@
     -moz-border-radius: 4px 4px 0 0 !important;
   }
 
+  #iconsDesktop .btn::after {
+    font-size: 14px;
+    color: rgb(230, 230, 230);
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    left: 0;
+  }
+
   @media(max-width: 400px) {
     #iconsDesktop {
       position: absolute;
@@ -355,12 +360,49 @@
       transform: translate(-50%, -50%);
       /* margin: 50px auto 0 auto; */
     }
+    #iconsDesktop .col a {
+      height: 60px;
+      width: 75px;
+      margin-bottom: 43px;
+      background-color: none !important;
+    }
+    #iconsDesktop .btn::before {
+      content: "";
+      height: 12px;
+      width: 75px;
+      background-color: rgb(70, 82, 255);
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 4px 4px 0 0 !important;
+      -webkit-border-radius: 4px 4px 0 0 !important;
+      -moz-border-radius: 4px 4px 0 0 !important;
+    }
+    #iconsDesktop .btn::after {
+      font-size: 18px;
+      text-align: center;
+      top: 75px !important;
+      background-color: rgb(0, 0, 0);
+      position: absolute;
+      left: 0px !important;
+    }
+  }
+
+  .titlegallery {
+    font-family: 'Cairo', sans-serif;
+    color: rgb(197, 197, 197);
+    margin-top: 50px;
+    font-size: 18px;
+    width: 100%;
+    margin-left: 15px;
+    text-decoration: underline;
   }
 
   #iconsDesktop .btn:hover::before, #iconsDesktop .btn:focus::before {
     background-color: rgb(79, 90, 245);
   }
-  #iconsDesktop .btn2::after{
+
+  #iconsDesktop .btn2::after {
     margin-left: 8px;
   }
 
