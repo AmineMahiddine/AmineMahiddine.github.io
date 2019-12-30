@@ -28,7 +28,7 @@ making this early stages website, that will contain most of my future projects. 
 - [Mohamed Amine Mahiddine](https://www.aminemahiddine.me).
 
 ## Credits:
-- background Photo by [Maurício Mascaro](https://www.pexels.com/@maumascaro?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels)  from [Pexels](https://www.pexels.com/photo/blur-bokeh-dark-defocused-376533/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels)
+- Background Photo by [Maurício Mascaro](https://www.pexels.com/@maumascaro?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels)  from [Pexels](https://www.pexels.com/photo/blur-bokeh-dark-defocused-376533/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels)
 - Customized Illustrations based on [Undraw](https://undraw.co/illustrations).
 
 ## Tested By:
