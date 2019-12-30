@@ -12,7 +12,7 @@ making this early stages website, that will contain most of my future projects. 
 - ✅ Pushing to github
 - ✅ Adding a contact form
 - ✅ Final content
-  - [x] Fixing typing errors
+      - [x] Fixing typing errors
 - [x] maintenance
 
 ## Used technologies:
