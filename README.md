@@ -1,17 +1,18 @@
-# amine's reseme website
-##### *responsive modern portfolio*
+# MY RESUME WEBSITE ✅
+responsive modern portfolio*
 
 i've always belived that you'll never improve your self unless you start creating something, that's why i decided to
 making this early stages website, that will contain most of my future projects. i've started this project by prototyping and design. beying my first serious project i've find my self a bit lost, but day after day i start having an idea on waht i'm doing, and i learned about some great designer resources that inspired me like ( [Undraw](https://undraw.co/illustrations), [Dribbble](https://dribbble.com/), [Behance](https://www.behance.net/)). During the developement phase i've gained some experience, facing some problems every programer have to face at some point, from cleaning up the code, making it errors free and Accessible for every user (screen readers , keybored tabs ...)and fimally hosting the website and getting an SSL certificate ..., the website will be much butter and richer with content as i get advanced in my professional career so stay tooned !!
 
-- [x] Prototyping and design
-- [x] code
-- [x] pre-content
-- [x] domain name and Hosting
-- [x] pushing to github
-- [x] adding a contact form
-- [x] final content
-- [x] fixing typing errors
+## TASKS LIST
+- ✅ Prototyping and design
+- ✅ code
+- ✅ pre-content
+- ✅ domain name and Hosting
+- ✅ pushing to github
+- ✅ adding a contact form
+- ✅ final content
+- ✅ fixing typing errors
 - [x] maintenance
 
 ## Used technologies:
